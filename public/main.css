@@ -1,0 +1,333 @@
+.navbar{
+    display:flex;
+    height: 5rem;
+    width: 100%;
+    background-color: #7EA9BF;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.navbar-images{
+    display: flex;
+    margin-right: 0.7rem;
+    width: 33%;
+    justify-content: flex-end;
+    gap: 0.75rem;
+}
+.navbar-image{
+    height: 3rem;
+    width: 3rem;
+}
+.navbar-items{
+    display: flex;
+    width: 33%;
+    gap: 0.5rem;
+    justify-content: space-evenly;
+    margin-left: 12rem;
+}
+.navbar-items-one{
+    text-decoration: none;
+    color: black;
+    border-right: 0.1rem solid;
+    padding-right: 0.75rem;
+    font-family: meraFont;
+    font-size: 1rem;
+}
+.navbar-brandy{
+    text-decoration: none;
+    color: black;
+    margin-left: 0.5rem;
+    font-family: meraFont;
+    font-size: 1.5rem;
+}
+.footer{
+    display: flex;
+    height: 7rem;
+    width: 100%;
+    background-color: #7EA9BF;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 0;
+    gap: 1rem;
+}
+.footer-img{
+    height: 2.25rem;
+    width: 2.25rem;
+}
+.footer-images{
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+}
+.frontpage{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.frontpage-img{
+    height: 46rem;
+    width: 37rem;
+    border-radius: 2rem;
+    position: relative;
+    left: 8rem;
+}
+.front-txt{
+    position: relative;
+    top: 2rem;
+}
+.txt{
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+@font-face {
+    font-family: meraFont;
+    src: url(PlayfairDisplayRegular-ywLOY.ttf);
+}
+@font-face {
+    font-family: meraFonttwo;
+    src: url(OregonLdo-d9q7.ttf);
+}
+@font-face {
+    font-family: meraFontthird;
+    src: url(AspireDemibold-YaaO.ttf);
+}
+@font-face {
+    font-family: meraFontchohta;
+    src: url(MonmicaDemo-JVga.ttf);
+}
+
+.secondpage{
+    width: 100%;
+    margin-top: 2rem;
+    height: 45rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #D2D2C8;
+
+}
+.second-img{
+    height: 40rem;
+    width: 47rem;
+    border-radius: 2rem;
+    margin-right: 2rem;
+}
+.second-txt{
+    font-family: meraFonttwo;
+    font-size: 2rem;
+    width: 75%;
+    position: relative;
+    top: 2rem;
+}
+.thirdpage{
+    width: 100%;
+    display: flex;
+    height: 52rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #666666;
+}
+.third-img{
+    height: 47.7rem;
+    width: 35.8rem;
+    border-radius: 1rem;
+    margin-right: 2rem;
+    position: relative;
+    left: 1rem;
+}
+.third-txt{
+    font-family: meraFontthird;
+    font-size: 4rem;
+}
+.one{
+    align-self: flex-start;
+    margin-top: 3rem;
+    position: relative;
+    right: 4rem;
+}
+.two{
+    align-self: flex-end;
+    margin-bottom: 3rem;
+    position: relative;
+    left: 4rem;
+}
+.footer-txt{
+    margin: 0;
+    font-size: 0.75rem;
+}
+.D{
+    font-family: merafontthird ;
+    font-size: 7rem;
+}
+.A{
+    font-family: merafonttwo ;
+    font-size: 5rem;
+}
+.B{
+    font-family: merafontchohta ;
+    font-size: 3rem;
+}
+.C{
+    font-family: merafont ;
+    font-size: 2rem;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+input{
+    width: 50rem;
+}
+.contact{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 6rem;
+    margin-top: 2rem;
+    height: 100%;
+}
+.form-txt{
+    align-self: flex-start;
+    font-family: meraFont;
+    font-size: 2rem;
+}
+h1{
+    font-family: meraFont;
+    font-style: italic;
+    text-decoration: underline;
+}
+.submit{
+    width: 8rem;
+    border-radius: 1.5rem;
+    background-color: #B1B1B1;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+}
+.title{
+    height: 2rem;
+}
+main{
+    background-color: #DDDDDD;
+}
+.painting-img{
+    border-radius: 1rem;
+}
+.starryrock{
+    height: 38rem;
+    width: 38rem;
+    position: relative;
+    left: 5rem;
+}
+.building{
+    width: 29rem;
+    height: 23rem;
+    position: relative;
+    left: 2rem;
+}
+.lamp{
+    height: 30rem;
+    width: 30rem;
+    position: relative;
+    bottom: 20rem;
+    left: 2rem;
+}
+.strawberry{
+    width: 40rem;
+    height: 49rem;
+    position: relative;
+    left: 3rem;
+    bottom: 4rem;
+}
+.pine{
+    width: 40rem;
+    height: 30rem;
+    position: relative;
+    bottom: 33rem;
+    left: 2rem;
+}
+.sunrise{
+    width: 35rem;
+    height: 45rem;
+    position: relative;
+    left: 5rem;
+}
+.bluegirl{
+    width: 42.6rem;
+    height: 29.44rem;
+    position: relative;
+    bottom: 45rem;
+    left: 2rem;
+}
+.swamp{
+    width: 35rem;
+    height: 35rem;
+    position: relative;
+    bottom: 56rem;
+    left: 2rem;
+}
+.butterfly{
+    width: 33rem;
+    height: 45rem;
+    position: relative;
+    left: 7rem;
+    top: 2rem;
+}
+.turkishsunset{
+    width: 40rem;
+    height: 30rem;
+    position:relative;
+    right: 100%;
+    bottom: 18rem;
+}
+.alps{
+    width: 35rem;
+    height: 45rem;
+    position: relative;
+    bottom: 25rem;
+    left: 5rem;
+}
+.ferris{
+    width: 42rem;
+    height: 36rem;
+    position: relative;
+    bottom: 15rem;
+    left: 2rem;
+}
+.paintingpage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    position: relative;
+    top: 3rem;
+}
+.painting-txt{
+    text-align: center;
+    position: relative;
+    top: 1rem;
+}
+.aboutpg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+    height: 100%;
+}
+.about-img{
+    border-radius: 100%;
+    height: 25rem;
+    width: 25rem;
+}
+.about-txt{
+    width: 50%;
+    font-size: 1.5rem;
+    font-family: meraFonttwo;
+}
