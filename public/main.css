@@ -5,6 +5,7 @@
     background-color: #7EA9BF;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
 }
 .navbar-images{
     display: flex;
@@ -31,6 +32,7 @@
     padding-right: 0.75rem;
     font-family: meraFont;
     font-size: 1rem;
+    height: 2rem;
 }
 .navbar-brandy{
     text-decoration: none;
@@ -66,11 +68,12 @@
     justify-content: space-around;
 }
 .frontpage-img{
-    height: 46rem;
-    width: 37rem;
+    height: 52rem;
+    width: 43rem;
     border-radius: 2rem;
     position: relative;
-    left: 8rem;
+    left: 7rem;
+    top: 3rem;
 }
 .front-txt{
     position: relative;
@@ -81,7 +84,7 @@
     height: 80%;
     flex-direction: column;
     align-items: center;
-    gap: 5rem;
+    gap: 2rem;
 }
 @font-face {
     font-family: meraFont;
@@ -307,6 +310,7 @@ main{
     gap: 1rem;
     position: relative;
     top: 3rem;
+    margin-left: 2rem;
 }
 .painting-txt{
     text-align: center;
@@ -330,4 +334,42 @@ main{
     width: 50%;
     font-size: 1.5rem;
     font-family: meraFonttwo;
+}
+body{
+    margin: 0;
+}
+.animecompil{
+    height: 52rem;
+    width: 40rem;
+}
+.ariana{
+    width: 40rem;
+    height: 40rem;
+    position: relative;
+    bottom: 10rem;
+}
+.floating{
+    width: 32rem;
+    height: 43rem;
+    position: relative;
+    left: 8rem;
+    bottom: 3rem;
+}
+.inosuke{
+    width: 35rem;
+    height: 35rem;
+    position: relative;
+    top: 3rem;
+}
+.tanjiro{
+    width: 36rem;
+    height: 47rem;
+    position: relative;
+    left: 3rem;
+}
+.sukuna{
+    width: 35rem;
+    height: 35rem;
+    position: relative;
+    bottom: 8rem;
 }
