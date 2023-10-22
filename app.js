@@ -42,6 +42,8 @@ app.get("/about",(req,res)=>{
 app.get("/digital",(req,res)=>{
     res.render("digitalart.ejs");
 })
-app.listen(3000,()=>{
+const port = process.env.PORT || 3000;
+
+app.listen(port,"0.0.0.0",()=>{
     console.log("Server started on port 3000");
 })
